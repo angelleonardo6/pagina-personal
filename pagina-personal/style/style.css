@@ -1,0 +1,51 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+*{
+    margin: auto;
+    text-align:center;
+    /* background-image:image-set("https://static.vecteezy.com/system/resources/previews/013/614/661/original/abstract-computer-technology-background-with-circuit-board-and-circle-tech-illustration-vector.jpg") */
+}
+
+body{
+    background-color: rgb(121, 25, 25);
+    /* text-shadow: 1px 1px 1px black;
+    color: blue; */
+    /* background-image: url('../img/IMG_5604.JPG');
+    background-size: 100%; */
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.enlace{
+    padding: 15px;
+    margin:5px;
+    text-decoration: none;
+    background-color:black;
+     color: white;
+    font-size: 30px;
+    border-radius:30px;
+    transition: 0.5s;
+
+}
+
+.enlace:hover{
+    background-color: white;
+    color: orange;
+}
+
+#perfil{
+    border-radius: 15px;
+}
+
+.contenido{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
